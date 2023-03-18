@@ -22,7 +22,13 @@ def populate_db():
         {'first_name':'Teacher','last_name': 'TeacherTwo','email':'teacher2@gmail.com','password':'password123',},
     ]
     students = [
-        {'first_name':'Student','last_name': 'StudentOne','email':'student1@gmai
+        {'first_name':'Student','last_name': 'StudentOne','email':'student1@gmail.com','password':'password123',},
+        {'first_name':'Student','last_name': 'StudentTwo','email':'student2@gmail.com','password':'password123',},
+    ]
+    courses = [
+        {'course_code':'MAT564','credit_hours': 3,'name':'Mathematics'},
+        {'course_code':'GHT538','credit_hours': 1,'name':'Geography'},
+    ]
     for user in admins:
         identifier=random_char(10)  
         current_year =  str(datetime.datetime.now().year)
