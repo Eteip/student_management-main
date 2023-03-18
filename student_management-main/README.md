@@ -13,15 +13,15 @@ Note: This is currently under active development
     - [Students Endpoint](#students-endpoint)
     - [Courses Endpoint](#courses-endpoint)
 
-## Live ( deployed version ) 
+## Live ( version ) 
 
-Visit [website](http://olakaycoder1.pythonanywhere.com/)
+Visit [website](https://student-management-api.herokuapp.com/)
 ## Testing Locally
 
 Clone the repository
 
 ```console
-git clone https://github.com/olakayCoder1/student_management.git
+git clone https://github.com/Eteip/student_management-main/tree/master/student_management-main
 ```
 
 Change directory to the cloned folder
